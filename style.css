@@ -1,0 +1,28 @@
+ /* p{
+
+    
+
+    font: size 30px;
+    font-weight: 100;
+    text-decoration: line-through;
+    text-transform: capitalize;
+
+}  */
+    #pera1{
+        color: beige;
+        font-size: medium;
+    
+        
+
+    }
+    .pera2{
+        color: blueviolet;
+        font-size: x-small;
+        background-color: aquamarine;
+    }
+    
+
+    .b3{
+        border: 20px;
+        
+    }
