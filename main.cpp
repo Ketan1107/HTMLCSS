@@ -48,14 +48,15 @@ int main() {
 
 // cout<<(a>b)<<endl;
 
-int a=10;
-int b=20;
-int c=30;
+// int a=10;
+// int b=20;
+// int c=30;
 
-cout<<(a>b && a<b)<<endl;
-cout<<(b>c && b>c)<<endl;
-cout<<(c>a && c>b)<<endl;
+// cout<<(a>b && a<b)<<endl;
+// cout<<(b>c && b>c)<<endl;
+// cout<<(c>a && c>b)<<endl;
 
+int a=2
 
 
 
