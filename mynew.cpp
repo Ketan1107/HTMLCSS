@@ -1,36 +1,65 @@
-#include  <iostream>
-#include <limits>
-#include <limits>
-using namespace std ;
+# include <iostream>
+using namespace std;
 int main(){
 
-    int a=10;
-    cout<<&a<<endl;
+    string website;
+    cout<<"enter a website:";
+    cin>>website;
 
-    int b=20;
-    cout<<&b<<endl;
+      if(website == "flipkart"){
 
-    cout<<sizeof(int)<<endl;
-    cout<<sizeof(float)<<endl;
-    cout<<sizeof(double)<<endl;
-    cout<<sizeof(char)<<endl;
-    cout<<sizeof(bool)<<endl;
+          string option;
+          cout<<"enter product or service:";
+          cin>>option;
+           
+               if(option == "product"){
 
-    cout<<numeric_limits<int>::max()<<endl;
-    cout<<numeric_limits<int>::min()<<endl;
+                   string gender;
+                   cout<<"enter male or female:";
+                   cin>>gender;
 
-    cout<<numeric_limits<float>::max()<<endl;
-    cout<<numeric_limits<float>::min()<<endl;
+                     if(gender == "male"){
 
-    cout<<numeric_limits<bool>::max()<<endl;
-    cout<<numeric_limits<bool>::min()<<endl;
+                        string order;
+                        cout<<"enter shoes or clothes:";
+                        cin>>order;
 
-    
-    cout<<INT_MAX<<endl;
-    cout<<INT_MIN<<endl;
+                          if(order == "shoes"){cout<<"1000";}
+                          else if(order == "clothes"){cout<<"2000";}
+                          else{cout<<"wrong order";}
+                     }
 
-    cout<<CHAR_max<<endl;
-    cout<<CHAR_min<<endl;
+
+                     else if(gender == "female"){
+
+                        string order;
+                        cout<<"enter jewellery or clothes:";
+                        cin>>order;
+
+                         if(order == "jewwllery"){cout<<"5000";}
+                         else if(order == "clothes"){cout<<"3000";}
+                         else{cout<<"wrong order for women";}
+                     }
+                     else{cout<<"invalid";}
+               }
+               else if(option == "service"){
+                  cout<<"not available";
+               }
+               else {cout<<"wrong option";}
+      }
+
+      else{
+        cout<<"invalid website";
+      }
+
+
+
+
+
+
+
+
+
 
 
 
